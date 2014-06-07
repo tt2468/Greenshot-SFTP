@@ -36,6 +36,6 @@ It should output _something_ like __2048 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx  ro
 
 You want to copy the xx:xx:xx:xx part and paste it in your ftp.txt, just like this;
 
-open sftp://username:password@host.name -hostkey="ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx"
+*open sftp://username:password@host.name -hostkey="ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx"*
 
 __IMPORTANT:__ Leave the "ssh-rsa" and "2048" part
