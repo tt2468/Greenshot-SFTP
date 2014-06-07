@@ -39,3 +39,37 @@ You want to copy the xx:xx:xx:xx part and paste it in your ftp.txt, just like th
 *open sftp://username:password@host.name -hostkey="ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx"*
 
 __IMPORTANT:__ Leave the "ssh-rsa" and "2048" part
+
+Editing ftp.txt
+===============
+
+Editing ftp.txt is pretty simple, but I'll go through it one by one.
+
+*option batch abort*
+*option confirm off*
+
+Leave these two as they are and don't modify them.
+
+*open sftp://username:password@host.name -hostkey="ssh-rsa 2048 yo:ur:ho:st:ke:y:he:re"*
+
+This is the main part you want to focus on. It's pretty self explanitory. Replace _username_ with your ssh username, _password_ with your ssh password, _host.name_ with your box ip/hostname. You want to replace _yo:ur:ho:st:ke:y:he:re_ with your host key, which is explained above.
+
+*cd /var/www/i*
+
+You want to change this to where you are uploading your screenshot. I have mine in a __i__ directory in */var/www*
+
+*put %1%*
+
+Leave this as it is.
+
+*clip http://example.com/i/%1%*
+
+This currently copies __http://example.com/i/yourscreenshotname__ to the clipboard for the batch file to then interpt, but modify it to your domain.
+
+*close*
+
+This closes the sFTP connection, and *exit* exits WinSCP.
+
+
+
+
