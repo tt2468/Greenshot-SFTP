@@ -23,7 +23,7 @@ In the end, it should look something like
 
 ![Image](http://i.yoda.li/i/001094.png)
 
-Hit "OK", and you're all done, if the "Command" box is red ( !http://i.yoda.li/i/001095.png ) that means the filepath is invalid.
+Hit "OK", and you're all done, if the "Command" box is red ( ![Image](http://i.yoda.li/i/001095.png)) that means the filepath is invalid.
 
 To now enable this, you want to right click on your greenshot icon and hit on Preferences, then go to the "Destination" tab and untick "Select destination dynamically" and tick "SFTP" or whatever you called it.
 
