@@ -70,6 +70,24 @@ This currently copies __http://example.com/i/yourscreenshotname__ to the clipboa
 
 This closes the sFTP connection, and *exit* exits WinSCP.
 
+Editing ftp.bat
+===============
 
+There's not alot to edit in ftp.bat, but there is a few things.
 
+*cd /D C:/Program Files (x86)/WinSCP*
 
+You want to change the *C:/Program Files* part to where your WinSCP is located.
+
+*start /B WinSCP.com /script="C:/location/to/your/ftp.txt" /parameter // %1*
+
+You want to change *"C:/location/to/your/ftp.txt"* to where your ftp.txt is located.
+
+*echo http://example.com/image/%Name%.png | clip*
+
+This is the important part. You want to change *http://example.com/image/%Name%.png* to where it has uploaded. 
+
+Contact me
+===============
+
+That's pretty much it. If you have any problems or anything you can click on the EsperNet #Yoda button on http://yoda.pw/contactme.html
