@@ -90,4 +90,4 @@ This is the important part. You want to change *http://example.com/image/%Name%.
 Contact me
 ===============
 
-That's pretty much it. If you have any problems or anything you can click on the EsperNet #Yoda button on http://yoda.pw/contactme.html
+That's pretty much it. If you have any problems or anything you can click on the EsperNet #Yoda button on http://yoda.pw/contactme.php
