@@ -1,13 +1,12 @@
 @echo off
 
-set path=%1
+set mypath=%1
 
-For %%A in ("%path%") do (
+For %%A in ("%mypath%") do (
 Set Name=%%~nA
 )
 
 cd /D C:/Program Files (x86)/WinSCP
-start /B WinSCP.com /script="C:/location/to/your/ftp.txt" /parameter // %1
+start /B WinSCP.com /script="C:\Change\Me\To\Your\ftp.txt" /parameter // %1
 
-cd /D C:\windows\system32\
-echo http://example.com/image/%Name%.png | clip
+echo https://example.com/i/%Name%.png | clip
