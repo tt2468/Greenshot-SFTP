@@ -2,12 +2,11 @@ option batch abort
 option confirm off
 
 # Connect to server 
-open sftp://username:password@host.name -hostkey="ssh-rsa 2048 yo:ur:ho:st:ke:y:he:re"
+open sftp://username:password@example.com -hostkey="ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
 
 # Change to the directory that it's uploading to
-cd /var/www/i
+cd /var/www/html/i
 
-put %1% 
-clip http://example.com/i/%1%
+put %1%
 close
 exit
