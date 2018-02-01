@@ -1,5 +1,3 @@
-@echo off
-
 set mypath=%1
 
 For %%A in ("%mypath%") do (
