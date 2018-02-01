@@ -86,4 +86,4 @@ This is the important part. You want to change `http://example.com/i/` to the we
 Contact me
 ===============
 
-That's pretty much it. If you have any problems or anything you can create an issue thread or email me at tt2468[atsign]gmail.com.
+That's pretty much it. If you have any problems or anything you can create an issue thread.
