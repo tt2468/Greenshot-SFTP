@@ -9,6 +9,7 @@ Setup
 Download both ftp.bat & ftp.txt and modify to your needs, place them in the same folder. 
 
 Right click on greenshot and press on Configure External Commands
+
 ![Image](https://i.imgur.com/gKa8Yvn.png) 
 
 Click "New" and call it.. say "SFTP"
@@ -21,7 +22,7 @@ In the end, it should look something like
 
 ![Image](https://i.imgur.com/BoTkM7c.png)
 
-Hit "OK", and you're all done, if the "Command" box is red ( ![Image](https://i.imgur.com/BPHet8P.png)) that means the filepath is invalid.
+Hit "OK", and you're all done, if the "Command" box is red (https://i.imgur.com/BPHet8P.png) that means the filepath is invalid.
 
 To now enable this, you want to right click on your greenshot icon and hit on Preferences, then go to the "Destination" tab and untick "Select destination dynamically" and tick "SFTP" or whatever you called it.
 
